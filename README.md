@@ -222,17 +222,27 @@ Antes de finalizar, verificá que el JSON sea sintácticamente válido y que la 
 
 ## 8. Evidencia de funcionamiento
 
-Se realizaron pruebas funcionales del agente de IA utilizando consultas simuladas enviadas mediante Webhook desde PowerShell.
 
-Las pruebas permitieron verificar la recepción de consultas, la recuperación de información mediante RAG, la clasificación del agente y el registro automático de resultados en Google Sheets.
+## Evidencias de funcionamiento
 
-### 1. Canvas del workflow
+A continuación, se presentan las capturas que documentan la arquitectura y las pruebas realizadas del agente de IA.
 
-![Canvas del workflow](recibir_y_clasificación_de_consultas) y (preparar_documentos_rag)
+### 1. Workflow de recepción y clasificación de consultas
 
-### 2. Ejecución exitosa
+![Workflow de recepción y clasificación](capturas/recibir_y_clasificación_de_consultas.png)
 
-![Ejecución exitosa en n8n](simulación_exitosa)
+### 2. Workflow de preparación de documentos RAG
+
+![Preparación de documentos RAG](capturas/preparar_documentos_rag.png)
+
+### 3. Ejecución exitosa del agente
+
+![Ejecución exitosa en n8n](capturas/simulación_exitosa.png)
+
+### 4. Registro automático de consultas
+
+![Registro de resultados](capturas/resultado_en_excel.png)
+
 
 ### 3. Registro de consultas
 
